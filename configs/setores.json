@@ -1,0 +1,180 @@
+{
+  "Comercial": {
+    "senha": "C#ialeao",
+    "paineis": [
+      {
+        "nome": "Consulta Frete Margem de Contribuição",
+        "arquivo": "dashboards/comercial/consulta_frete_mc.html",
+        "restrito": false
+      },
+      {
+        "nome": "Prospecção de Novos Clientes",
+        "arquivo": "dashboards/comercial/prospeccao.html",
+        "restrito": false
+      },
+      {
+        "nome": "Frota  de Veículos  Sustentáveis",
+        "arquivo": "dashboards/comercial/veiculos0km.html",
+        "restrito": false
+      }
+    ]
+  },
+
+
+"Financeiro": {
+  "senha": "LeFi#cro",
+  "paineis": [
+    {
+      "nome": "Consulta Tabela de Fretes",
+      "arquivo": "dashboards/financeiro/consulta_de_fretes.html",
+      "restrito": true
+    },
+    {
+      "nome": "Controle Nivel Bomba Interna",
+      "arquivo": "dashboards/financeiro/bomba_interna.html",
+      "restrito": false
+    },
+    {
+      "nome": "Avaliação Comparativo Anual",
+      "arquivo": "dashboards/financeiro/comparativo.html",
+      "restrito": false
+    },
+    {
+      "nome": "Demostrativo de Resulatdo de Exercício",
+      "arquivo": "dashboards/financeiro/dre.html",
+      "restrito": true
+    }     
+  ]
+},
+
+
+"Diretoria": {
+  "senha": "D#rleaT0",
+  "paineis": [
+    {
+      "nome": "Análise do Faturamento Custos e Orçamentos",
+      "arquivo": "dashboards/diretoria/analise_fdc_of.html",
+      "restrito": true
+    },
+    {
+      "nome": "Controle de Combustivel - Leão",
+      "arquivo": "dashboards/diretoria/controle_de_combustivel.html",
+      "restrito": false
+    },
+    {
+      "nome": "Faturamento da Empresa",
+      "arquivo": "dashboards/diretoria/faturamento_empresa.html",
+      "restrito": true
+    },    
+    {
+      "nome": "Projeto Visão Gerenciamento",
+      "arquivo": "dashboards/diretoria/projeto_gerencial.html",
+      "restrito": true
+    }        
+  ]
+},
+
+
+"Emissão": {
+  "senha": "@e#rmSa0",
+  "paineis": [
+    {
+      "nome": "Acompanhamento de Fretes",
+      "arquivo": "dashboards/emissao/consulta_frete.html",
+      "restrito": true
+    },
+    {
+      "nome": "Emissões Agregados e Frotas",
+      "arquivo": "dashboards/emissao/emissao.html",
+      "restrito": true
+    },
+    {
+      "nome": "Resultado Diáro Agregados e Frotas",
+      "arquivo": "dashboards/emissao/resultado_diario.html",
+      "restrito": true
+    }    
+  ]
+},
+
+
+"Manutenção": {
+  "senha": "M#unc0eT",
+  "paineis": [
+    {
+      "nome": "Controle de Abastecimentos",
+      "arquivo": "dashboards/manutencao/controle_de_abastecimento.html",
+      "restrito": false
+    },
+    {
+      "nome": "Monitoramento do Controle de Combustivel ",
+      "arquivo": "dashboards/manutencao/controle_de_combustivel.html",
+      "restrito": false
+    },
+    {
+      "nome": "Monitoramento do Controle de Pedágio ",
+      "arquivo": "dashboards/manutencao/controle_de_pedagio.html",
+      "restrito": false
+    },
+    {
+      "nome": "Acompanhamerto de Gestão de Frotas ",
+      "arquivo": "dashboards/manutencao/gestao_de_frotas.html",
+      "restrito": true
+    } 
+  ]
+},
+
+
+"Operação": {
+  "senha": "*Oau0rcP",
+  "paineis": [
+    {
+      "nome": "Boletim Faturamento por Período",
+      "arquivo": "dashboards/operacao/boletim.html",
+      "restrito": true
+    },
+    {
+      "nome": "Captação Necessidade de Veículos",
+      "arquivo": "dashboards/operacao/captacao.html",
+      "restrito": false
+    },
+    {
+      "nome": "Acompanhamento Consulta de Fretes",
+      "arquivo": "dashboards/operacao/consulta_frete.html",
+      "restrito": true
+    },
+    {
+      "nome": "Análise desempenho de OTIF",
+      "arquivo": "dashboards/operacao/otif.html",
+      "restrito": false
+    },
+    {
+      "nome": "Controle da Posição Frotas",
+      "arquivo": "dashboards/operacao/posicao_frota.html",
+      "restrito": false
+    },
+    {
+      "nome": "Controle de SLA Análitico",
+      "arquivo": "dashboards/operacao/sla_analitico.html",
+      "restrito": false
+    }
+  ]
+},
+
+
+"Gerenciamento de Risco": {
+  "senha": "@G#rismt",
+  "paineis": [
+    {
+      "nome": "Consulta Gerenciamento de Risco",
+      "arquivo": "dashboards/gerenciamento_de_risco_custo/gerenciamento_de_risco.html",
+      "restrito": true
+    },
+    {
+      "nome": "Acompanhamento Nível de Serviço",
+      "arquivo": "dashboards/gerenciamento_de_risco_custo/nivel_de_servico.html",
+      "restrito": false
+    }
+  ]
+}
+
+}
