@@ -483,7 +483,7 @@ def tela_setor():
         else:
             st.sidebar.markdown(f"🔒 Painel **{nome_painel}** requer autenticação")
             senha_input = st.sidebar.text_input("Digite a senha:", type="password", key="senha_restrita")
-            acessar = st.sidebar.button("Acessar Painel -📈📉📊")
+            acessar = st.sidebar.button("Acessar Painel 📈📉📊")
 
             if not st.session_state.get('painel_avisado', False) and not acessar:
                 st.toast(f"⚠️ Painel '{nome_painel}' requer autenticação. Deslize a tela para baixo e insira a senha.")
