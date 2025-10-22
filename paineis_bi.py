@@ -79,7 +79,7 @@ def tela_login():
     st.markdown(""" 
         <div style='margin-top: 10px; font-size:14px; color:#2E1900; font-family: "Open Sans", sans-serif;'>
         Este portal tem como objetivo centralizar os painéis de BI da organização, para o acesso organizado dos dados de cada setor. 
-        Cada setor possui uma senha para garantir a segurança do acesso. Além disso, alguns painéis são restritos e exigem autenticação adicional, para que apenas usuários administrativos tenham permissão para visualizá-los.
+        Cada setor possui uma senha para garantir a segurança do acesso. Além disso, alguns painéis são restritos e exigem autenticação adicional, para que apenas usuários gestores tenham permissão para visualizá-los.
         </div>
     """, unsafe_allow_html=True)
 
